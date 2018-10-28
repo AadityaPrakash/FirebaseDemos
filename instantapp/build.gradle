@@ -1,0 +1,6 @@
+apply plugin: 'com.android.instantapp'
+
+dependencies {
+    implementation project(':Showcase')
+    implementation project(':base')
+}
